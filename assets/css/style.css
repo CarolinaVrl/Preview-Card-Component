@@ -2,3 +2,16 @@
 /* font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif; */
 
+:root{
+    --appDarkCyan: hsl(158, 36%, 37%);
+    --appCream: hsl(30, 38%, 92%);
+    --appVeryDarkBlue: hsl(212, 21%, 14%);
+    --appDarkGrayishBlue: hsl(228, 12%, 48%);
+    --appWhite: hsl(0, 0%, 100%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
