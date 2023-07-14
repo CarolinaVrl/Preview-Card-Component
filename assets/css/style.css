@@ -2,7 +2,7 @@
 /* font-family: 'Fraunces', serif;
 font-family: 'Montserrat', sans-serif; */
 
-:root{
+:root {
     --appDarkCyan: hsl(158, 36%, 37%);
     --appCream: hsl(30, 38%, 92%);
     --appVeryDarkBlue: hsl(212, 21%, 14%);
@@ -10,8 +10,45 @@ font-family: 'Montserrat', sans-serif; */
     --appWhite: hsl(0, 0%, 100%);
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: var(--appCream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+main {
+    max-width: 370px;
+    background: var(--appWhite);
+    border-radius: 15px;
+}
+
+
+.mobile img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.category{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--appDarkGrayishBlue);
+    font-weight: 500;
+    font-size: 12px;
 }
