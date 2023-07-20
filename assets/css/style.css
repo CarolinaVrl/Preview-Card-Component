@@ -100,7 +100,11 @@ button{
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
-
+button:hover{
+    cursor: pointer;
+    background: var(--appVeryDarkBlue);
+    font-size: 11px;
+}
 @media screen and (min-width:900px) {
     main{
         display:flex;
