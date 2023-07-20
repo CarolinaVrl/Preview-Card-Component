@@ -66,4 +66,18 @@ p{
 }
 .price{
     display: flex;
+    align-items: center;
+    gap:20px;
+}
+.new{
+    color: var(--appDarkCyan);
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.past{
+    color: var(--appDarkGrayishBlue);
+    font-weight: 400;
+    text-decoration: line-through;
 }
