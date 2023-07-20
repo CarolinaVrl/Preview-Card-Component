@@ -40,7 +40,7 @@ main {
 
 .text {
     font-family: 'Montserrat', sans-serif;
-    padding: 15px 25px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -80,4 +80,19 @@ p{
     color: var(--appDarkGrayishBlue);
     font-weight: 400;
     text-decoration: line-through;
+}
+
+button{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    color: var(--appWhite);
+    background: var(--appDarkCyan);
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
